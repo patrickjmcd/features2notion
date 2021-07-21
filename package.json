@@ -1,6 +1,6 @@
 {
   "name": "features2notion",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Export feature files to Notion",
   "main": "index.js",
   "repository": "https://github.com/patrickjmcd/features2notion",
