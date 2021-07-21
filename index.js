@@ -64,7 +64,7 @@ commander
             allFiles.map(async (file) => {
                 const featureFile = await FeatureFile.parseFromFile(file);
                 const created = await featureFile.sendToNotion(databaseId);
-                // console.log(created);
+                console.log(`created ${created.url}`);
             })
         );
     });

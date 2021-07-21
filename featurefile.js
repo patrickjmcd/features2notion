@@ -35,7 +35,6 @@ class FeatureFile {
                 }
             } catch (e) {}
         }
-        console.log(key);
 
         let featureName = "";
         let userStory = "";
